@@ -1,0 +1,916 @@
+{
+  "countries": [
+    {
+      "name": { "common": "India", "official": "Republic of India" },
+      "cca3": "IND",
+      "capital": ["New Delhi"],
+      "region": "Asia",
+      "subregion": "Southern Asia",
+      "population": 1428627663,
+      "area": 3287590,
+      "languages": { "hin": "Hindi", "eng": "English" },
+      "currencies": { "INR": { "name": "Indian rupee", "symbol": "₹" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/320px-Flag_of_India.svg.png",
+        "alt": "Flag of India"
+      }
+    },
+    {
+      "name": { "common": "China", "official": "People's Republic of China" },
+      "cca3": "CHN",
+      "capital": ["Beijing"],
+      "region": "Asia",
+      "subregion": "Eastern Asia",
+      "population": 1410710000,
+      "area": 9706961,
+      "languages": { "zho": "Chinese" },
+      "currencies": { "CNY": { "name": "Chinese yuan", "symbol": "¥" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/en/0/0f/Flag_of_China.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/Flag_of_China.svg/320px-Flag_of_China.svg.png",
+        "alt": "Flag of China"
+      }
+    },
+    {
+      "name": { "common": "Japan", "official": "Japan" },
+      "cca3": "JPN",
+      "capital": ["Tokyo"],
+      "region": "Asia",
+      "subregion": "Eastern Asia",
+      "population": 124500000,
+      "area": 377930,
+      "languages": { "jpn": "Japanese" },
+      "currencies": { "JPY": { "name": "Japanese yen", "symbol": "¥" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/en/9/9e/Flag_of_Japan.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/320px-Flag_of_Japan.svg.png",
+        "alt": "Flag of Japan"
+      }
+    },
+    {
+      "name": { "common": "South Korea", "official": "Republic of Korea" },
+      "cca3": "KOR",
+      "capital": ["Seoul"],
+      "region": "Asia",
+      "subregion": "Eastern Asia",
+      "population": 51780000,
+      "area": 100210,
+      "languages": { "kor": "Korean" },
+      "currencies": { "KRW": { "name": "South Korean won", "symbol": "₩" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_South_Korea.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/320px-Flag_of_South_Korea.svg.png",
+        "alt": "Flag of South Korea"
+      }
+    },
+    {
+      "name": { "common": "Indonesia", "official": "Republic of Indonesia" },
+      "cca3": "IDN",
+      "capital": ["Jakarta"],
+      "region": "Asia",
+      "subregion": "South-Eastern Asia",
+      "population": 277534122,
+      "area": 1904569,
+      "languages": { "ind": "Indonesian" },
+      "currencies": { "IDR": { "name": "Indonesian rupiah", "symbol": "Rp" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Flag_of_Indonesia.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/320px-Flag_of_Indonesia.svg.png",
+        "alt": "Flag of Indonesia"
+      }
+    },
+    {
+      "name": { "common": "Pakistan", "official": "Islamic Republic of Pakistan" },
+      "cca3": "PAK",
+      "capital": ["Islamabad"],
+      "region": "Asia",
+      "subregion": "Southern Asia",
+      "population": 240485658,
+      "area": 881912,
+      "languages": { "urd": "Urdu", "eng": "English" },
+      "currencies": { "PKR": { "name": "Pakistani rupee", "symbol": "₨" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/3/32/Flag_of_Pakistan.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Pakistan.svg/320px-Flag_of_Pakistan.svg.png",
+        "alt": "Flag of Pakistan"
+      }
+    },
+    {
+      "name": { "common": "Bangladesh", "official": "People's Republic of Bangladesh" },
+      "cca3": "BGD",
+      "capital": ["Dhaka"],
+      "region": "Asia",
+      "subregion": "Southern Asia",
+      "population": 172954319,
+      "area": 147570,
+      "languages": { "ben": "Bengali" },
+      "currencies": { "BDT": { "name": "Bangladeshi taka", "symbol": "৳" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Flag_of_Bangladesh.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_Bangladesh.svg/320px-Flag_of_Bangladesh.svg.png",
+        "alt": "Flag of Bangladesh"
+      }
+    },
+    {
+      "name": { "common": "Thailand", "official": "Kingdom of Thailand" },
+      "cca3": "THA",
+      "capital": ["Bangkok"],
+      "region": "Asia",
+      "subregion": "South-Eastern Asia",
+      "population": 71801279,
+      "area": 513120,
+      "languages": { "tha": "Thai" },
+      "currencies": { "THB": { "name": "Thai baht", "symbol": "฿" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_Thailand.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/320px-Flag_of_Thailand.svg.png",
+        "alt": "Flag of Thailand"
+      }
+    },
+    {
+      "name": { "common": "Vietnam", "official": "Socialist Republic of Vietnam" },
+      "cca3": "VNM",
+      "capital": ["Hanoi"],
+      "region": "Asia",
+      "subregion": "South-Eastern Asia",
+      "population": 98858950,
+      "area": 331212,
+      "languages": { "vie": "Vietnamese" },
+      "currencies": { "VND": { "name": "Vietnamese đồng", "symbol": "₫" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Vietnam.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/320px-Flag_of_Vietnam.svg.png",
+        "alt": "Flag of Vietnam"
+      }
+    },
+    {
+      "name": { "common": "Saudi Arabia", "official": "Kingdom of Saudi Arabia" },
+      "cca3": "SAU",
+      "capital": ["Riyadh"],
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "population": 36947025,
+      "area": 2149690,
+      "languages": { "ara": "Arabic" },
+      "currencies": { "SAR": { "name": "Saudi riyal", "symbol": "ر.س" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Flag_of_Saudi_Arabia.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/320px-Flag_of_Saudi_Arabia.svg.png",
+        "alt": "Flag of Saudi Arabia"
+      }
+    },
+    {
+      "name": { "common": "Nepal", "official": "Federal Democratic Republic of Nepal" },
+      "cca3": "NPL",
+      "capital": ["Kathmandu"],
+      "region": "Asia",
+      "subregion": "Southern Asia",
+      "population": 29164578,
+      "area": 147181,
+      "languages": { "nep": "Nepali" },
+      "currencies": { "NPR": { "name": "Nepalese rupee", "symbol": "₨" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Flag_of_Nepal.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Flag_of_Nepal.svg/320px-Flag_of_Nepal.svg.png",
+        "alt": "Flag of Nepal"
+      }
+    },
+    {
+      "name": { "common": "Singapore", "official": "Republic of Singapore" },
+      "cca3": "SGP",
+      "capital": ["Singapore"],
+      "region": "Asia",
+      "subregion": "South-Eastern Asia",
+      "population": 5917600,
+      "area": 728,
+      "languages": { "eng": "English", "msa": "Malay", "zho": "Chinese", "tam": "Tamil" },
+      "currencies": { "SGD": { "name": "Singapore dollar", "symbol": "$" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/4/48/Flag_of_Singapore.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Singapore.svg/320px-Flag_of_Singapore.svg.png",
+        "alt": "Flag of Singapore"
+      }
+    },
+    {
+      "name": { "common": "Malaysia", "official": "Malaysia" },
+      "cca3": "MYS",
+      "capital": ["Kuala Lumpur"],
+      "region": "Asia",
+      "subregion": "South-Eastern Asia",
+      "population": 34308525,
+      "area": 330803,
+      "languages": { "msa": "Malay" },
+      "currencies": { "MYR": { "name": "Malaysian ringgit", "symbol": "RM" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/6/66/Flag_of_Malaysia.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Flag_of_Malaysia.svg/320px-Flag_of_Malaysia.svg.png",
+        "alt": "Flag of Malaysia"
+      }
+    },
+    {
+      "name": { "common": "Philippines", "official": "Republic of the Philippines" },
+      "cca3": "PHL",
+      "capital": ["Manila"],
+      "region": "Asia",
+      "subregion": "South-Eastern Asia",
+      "population": 117337368,
+      "area": 342353,
+      "languages": { "fil": "Filipino", "eng": "English" },
+      "currencies": { "PHP": { "name": "Philippine peso", "symbol": "₱" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/9/99/Flag_of_the_Philippines.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/320px-Flag_of_the_Philippines.svg.png",
+        "alt": "Flag of the Philippines"
+      }
+    },
+    {
+      "name": { "common": "Iran", "official": "Islamic Republic of Iran" },
+      "cca3": "IRN",
+      "capital": ["Tehran"],
+      "region": "Asia",
+      "subregion": "Southern Asia",
+      "population": 89172767,
+      "area": 1648195,
+      "languages": { "fas": "Persian" },
+      "currencies": { "IRR": { "name": "Iranian rial", "symbol": "﷼" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Flag_of_Iran.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/320px-Flag_of_Iran.svg.png",
+        "alt": "Flag of Iran"
+      }
+    },
+    {
+      "name": { "common": "United Arab Emirates", "official": "United Arab Emirates" },
+      "cca3": "ARE",
+      "capital": ["Abu Dhabi"],
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "population": 9516871,
+      "area": 83600,
+      "languages": { "ara": "Arabic" },
+      "currencies": { "AED": { "name": "UAE dirham", "symbol": "د.إ" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_United_Arab_Emirates.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_United_Arab_Emirates.svg/320px-Flag_of_the_United_Arab_Emirates.svg.png",
+        "alt": "Flag of the United Arab Emirates"
+      }
+    },
+    {
+      "name": { "common": "Turkey", "official": "Republic of Türkiye" },
+      "cca3": "TUR",
+      "capital": ["Ankara"],
+      "region": "Asia",
+      "subregion": "Western Asia",
+      "population": 85326000,
+      "area": 783562,
+      "languages": { "tur": "Turkish" },
+      "currencies": { "TRY": { "name": "Turkish lira", "symbol": "₺" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Flag_of_Turkey.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/320px-Flag_of_Turkey.svg.png",
+        "alt": "Flag of Turkey"
+      }
+    },
+    {
+      "name": { "common": "Nigeria", "official": "Federal Republic of Nigeria" },
+      "cca3": "NGA",
+      "capital": ["Abuja"],
+      "region": "Africa",
+      "subregion": "Western Africa",
+      "population": 223804632,
+      "area": 923768,
+      "languages": { "eng": "English" },
+      "currencies": { "NGN": { "name": "Nigerian naira", "symbol": "₦" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/7/79/Flag_of_Nigeria.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_Nigeria.svg/320px-Flag_of_Nigeria.svg.png",
+        "alt": "Flag of Nigeria"
+      }
+    },
+    {
+      "name": { "common": "Egypt", "official": "Arab Republic of Egypt" },
+      "cca3": "EGY",
+      "capital": ["Cairo"],
+      "region": "Africa",
+      "subregion": "Northern Africa",
+      "population": 112716598,
+      "area": 1002450,
+      "languages": { "ara": "Arabic" },
+      "currencies": { "EGP": { "name": "Egyptian pound", "symbol": "£" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Egypt.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/320px-Flag_of_Egypt.svg.png",
+        "alt": "Flag of Egypt"
+      }
+    },
+    {
+      "name": { "common": "South Africa", "official": "Republic of South Africa" },
+      "cca3": "ZAF",
+      "capital": ["Pretoria", "Cape Town", "Bloemfontein"],
+      "region": "Africa",
+      "subregion": "Southern Africa",
+      "population": 60414495,
+      "area": 1221037,
+      "languages": { "eng": "English", "zul": "Zulu", "xho": "Xhosa", "afr": "Afrikaans" },
+      "currencies": { "ZAR": { "name": "South African rand", "symbol": "R" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/a/af/Flag_of_South_Africa.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flag_of_South_Africa.svg/320px-Flag_of_South_Africa.svg.png",
+        "alt": "Flag of South Africa"
+      }
+    },
+    {
+      "name": { "common": "Kenya", "official": "Republic of Kenya" },
+      "cca3": "KEN",
+      "capital": ["Nairobi"],
+      "region": "Africa",
+      "subregion": "Eastern Africa",
+      "population": 55100586,
+      "area": 580367,
+      "languages": { "eng": "English", "swa": "Swahili" },
+      "currencies": { "KES": { "name": "Kenyan shilling", "symbol": "Sh" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Kenya.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Kenya.svg/320px-Flag_of_Kenya.svg.png",
+        "alt": "Flag of Kenya"
+      }
+    },
+    {
+      "name": { "common": "Ethiopia", "official": "Federal Democratic Republic of Ethiopia" },
+      "cca3": "ETH",
+      "capital": ["Addis Ababa"],
+      "region": "Africa",
+      "subregion": "Eastern Africa",
+      "population": 126527060,
+      "area": 1104300,
+      "languages": { "amh": "Amharic" },
+      "currencies": { "ETB": { "name": "Ethiopian birr", "symbol": "Br" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/7/71/Flag_of_Ethiopia.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Flag_of_Ethiopia.svg/320px-Flag_of_Ethiopia.svg.png",
+        "alt": "Flag of Ethiopia"
+      }
+    },
+    {
+      "name": { "common": "Ghana", "official": "Republic of Ghana" },
+      "cca3": "GHA",
+      "capital": ["Accra"],
+      "region": "Africa",
+      "subregion": "Western Africa",
+      "population": 34121985,
+      "area": 238533,
+      "languages": { "eng": "English" },
+      "currencies": { "GHS": { "name": "Ghanaian cedi", "symbol": "₵" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/1/19/Flag_of_Ghana.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Ghana.svg/320px-Flag_of_Ghana.svg.png",
+        "alt": "Flag of Ghana"
+      }
+    },
+    {
+      "name": { "common": "Morocco", "official": "Kingdom of Morocco" },
+      "cca3": "MAR",
+      "capital": ["Rabat"],
+      "region": "Africa",
+      "subregion": "Northern Africa",
+      "population": 37840044,
+      "area": 446550,
+      "languages": { "ara": "Arabic", "ber": "Amazigh" },
+      "currencies": { "MAD": { "name": "Moroccan dirham", "symbol": "د.م." } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Flag_of_Morocco.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/320px-Flag_of_Morocco.svg.png",
+        "alt": "Flag of Morocco"
+      }
+    },
+    {
+      "name": { "common": "Tanzania", "official": "United Republic of Tanzania" },
+      "cca3": "TZA",
+      "capital": ["Dodoma"],
+      "region": "Africa",
+      "subregion": "Eastern Africa",
+      "population": 67438106,
+      "area": 947303,
+      "languages": { "swa": "Swahili", "eng": "English" },
+      "currencies": { "TZS": { "name": "Tanzanian shilling", "symbol": "Sh" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/3/38/Flag_of_Tanzania.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Tanzania.svg/320px-Flag_of_Tanzania.svg.png",
+        "alt": "Flag of Tanzania"
+      }
+    },
+    {
+      "name": { "common": "Uganda", "official": "Republic of Uganda" },
+      "cca3": "UGA",
+      "capital": ["Kampala"],
+      "region": "Africa",
+      "subregion": "Eastern Africa",
+      "population": 48582334,
+      "area": 241550,
+      "languages": { "eng": "English", "swa": "Swahili" },
+      "currencies": { "UGX": { "name": "Ugandan shilling", "symbol": "USh" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Flag_of_Uganda.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Flag_of_Uganda.svg/320px-Flag_of_Uganda.svg.png",
+        "alt": "Flag of Uganda"
+      }
+    },
+    {
+      "name": { "common": "Algeria", "official": "People's Democratic Republic of Algeria" },
+      "cca3": "DZA",
+      "capital": ["Algiers"],
+      "region": "Africa",
+      "subregion": "Northern Africa",
+      "population": 45606480,
+      "area": 2381741,
+      "languages": { "ara": "Arabic", "ber": "Amazigh" },
+      "currencies": { "DZD": { "name": "Algerian dinar", "symbol": "د.ج" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/7/77/Flag_of_Algeria.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Algeria.svg/320px-Flag_of_Algeria.svg.png",
+        "alt": "Flag of Algeria"
+      }
+    },
+    {
+      "name": { "common": "Senegal", "official": "Republic of Senegal" },
+      "cca3": "SEN",
+      "capital": ["Dakar"],
+      "region": "Africa",
+      "subregion": "Western Africa",
+      "population": 17763163,
+      "area": 196722,
+      "languages": { "fra": "French" },
+      "currencies": { "XOF": { "name": "West African CFA franc", "symbol": "CFA" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Flag_of_Senegal.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/320px-Flag_of_Senegal.svg.png",
+        "alt": "Flag of Senegal"
+      }
+    },
+    {
+      "name": { "common": "Madagascar", "official": "Republic of Madagascar" },
+      "cca3": "MDG",
+      "capital": ["Antananarivo"],
+      "region": "Africa",
+      "subregion": "Eastern Africa",
+      "population": 30325732,
+      "area": 587041,
+      "languages": { "mlg": "Malagasy", "fra": "French" },
+      "currencies": { "MGA": { "name": "Malagasy ariary", "symbol": "Ar" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Madagascar.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Madagascar.svg/320px-Flag_of_Madagascar.svg.png",
+        "alt": "Flag of Madagascar"
+      }
+    },
+    {
+      "name": { "common": "United States", "official": "United States of America" },
+      "cca3": "USA",
+      "capital": ["Washington, D.C."],
+      "region": "Americas",
+      "subregion": "North America",
+      "population": 334914895,
+      "area": 9372610,
+      "languages": { "eng": "English" },
+      "currencies": { "USD": { "name": "United States dollar", "symbol": "$" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/320px-Flag_of_the_United_States.svg.png",
+        "alt": "Flag of the United States"
+      }
+    },
+    {
+      "name": { "common": "Canada", "official": "Canada" },
+      "cca3": "CAN",
+      "capital": ["Ottawa"],
+      "region": "Americas",
+      "subregion": "North America",
+      "population": 40097761,
+      "area": 9984670,
+      "languages": { "eng": "English", "fra": "French" },
+      "currencies": { "CAD": { "name": "Canadian dollar", "symbol": "$" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Canada.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Flag_of_Canada.svg/320px-Flag_of_Canada.svg.png",
+        "alt": "Flag of Canada"
+      }
+    },
+    {
+      "name": { "common": "Mexico", "official": "United Mexican States" },
+      "cca3": "MEX",
+      "capital": ["Mexico City"],
+      "region": "Americas",
+      "subregion": "North America",
+      "population": 128455567,
+      "area": 1964375,
+      "languages": { "spa": "Spanish" },
+      "currencies": { "MXN": { "name": "Mexican peso", "symbol": "$" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Mexico.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/320px-Flag_of_Mexico.svg.png",
+        "alt": "Flag of Mexico"
+      }
+    },
+    {
+      "name": { "common": "Brazil", "official": "Federative Republic of Brazil" },
+      "cca3": "BRA",
+      "capital": ["Brasília"],
+      "region": "Americas",
+      "subregion": "South America",
+      "population": 216422446,
+      "area": 8515767,
+      "languages": { "por": "Portuguese" },
+      "currencies": { "BRL": { "name": "Brazilian real", "symbol": "R$" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/en/0/05/Flag_of_Brazil.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/320px-Flag_of_Brazil.svg.png",
+        "alt": "Flag of Brazil"
+      }
+    },
+    {
+      "name": { "common": "Argentina", "official": "Argentine Republic" },
+      "cca3": "ARG",
+      "capital": ["Buenos Aires"],
+      "region": "Americas",
+      "subregion": "South America",
+      "population": 45773884,
+      "area": 2780400,
+      "languages": { "spa": "Spanish" },
+      "currencies": { "ARS": { "name": "Argentine peso", "symbol": "$" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_Argentina.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/320px-Flag_of_Argentina.svg.png",
+        "alt": "Flag of Argentina"
+      }
+    },
+    {
+      "name": { "common": "Chile", "official": "Republic of Chile" },
+      "cca3": "CHL",
+      "capital": ["Santiago"],
+      "region": "Americas",
+      "subregion": "South America",
+      "population": 19629590,
+      "area": 756102,
+      "languages": { "spa": "Spanish" },
+      "currencies": { "CLP": { "name": "Chilean peso", "symbol": "$" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/7/78/Flag_of_Chile.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Flag_of_Chile.svg/320px-Flag_of_Chile.svg.png",
+        "alt": "Flag of Chile"
+      }
+    },
+    {
+      "name": { "common": "Colombia", "official": "Republic of Colombia" },
+      "cca3": "COL",
+      "capital": ["Bogotá"],
+      "region": "Americas",
+      "subregion": "South America",
+      "population": 52085168,
+      "area": 1141748,
+      "languages": { "spa": "Spanish" },
+      "currencies": { "COP": { "name": "Colombian peso", "symbol": "$" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Colombia.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/320px-Flag_of_Colombia.svg.png",
+        "alt": "Flag of Colombia"
+      }
+    },
+    {
+      "name": { "common": "Peru", "official": "Republic of Peru" },
+      "cca3": "PER",
+      "capital": ["Lima"],
+      "region": "Americas",
+      "subregion": "South America",
+      "population": 34352719,
+      "area": 1285216,
+      "languages": { "spa": "Spanish", "que": "Quechua", "aym": "Aymara" },
+      "currencies": { "PEN": { "name": "Peruvian sol", "symbol": "S/" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Flag_of_Peru.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Flag_of_Peru.svg/320px-Flag_of_Peru.svg.png",
+        "alt": "Flag of Peru"
+      }
+    },
+    {
+      "name": { "common": "Cuba", "official": "Republic of Cuba" },
+      "cca3": "CUB",
+      "capital": ["Havana"],
+      "region": "Americas",
+      "subregion": "Caribbean",
+      "population": 11194449,
+      "area": 109884,
+      "languages": { "spa": "Spanish" },
+      "currencies": { "CUP": { "name": "Cuban peso", "symbol": "$" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Flag_of_Cuba.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Flag_of_Cuba.svg/320px-Flag_of_Cuba.svg.png",
+        "alt": "Flag of Cuba"
+      }
+    },
+    {
+      "name": { "common": "Jamaica", "official": "Jamaica" },
+      "cca3": "JAM",
+      "capital": ["Kingston"],
+      "region": "Americas",
+      "subregion": "Caribbean",
+      "population": 2825544,
+      "area": 10991,
+      "languages": { "eng": "English" },
+      "currencies": { "JMD": { "name": "Jamaican dollar", "symbol": "$" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Flag_of_Jamaica.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_Jamaica.svg/320px-Flag_of_Jamaica.svg.png",
+        "alt": "Flag of Jamaica"
+      }
+    },
+    {
+      "name": { "common": "United Kingdom", "official": "United Kingdom of Great Britain and Northern Ireland" },
+      "cca3": "GBR",
+      "capital": ["London"],
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "population": 68350000,
+      "area": 242900,
+      "languages": { "eng": "English" },
+      "currencies": { "GBP": { "name": "British pound", "symbol": "£" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/en/a/ae/Flag_of_the_United_Kingdom.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/320px-Flag_of_the_United_Kingdom.svg.png",
+        "alt": "Flag of the United Kingdom"
+      }
+    },
+    {
+      "name": { "common": "France", "official": "French Republic" },
+      "cca3": "FRA",
+      "capital": ["Paris"],
+      "region": "Europe",
+      "subregion": "Western Europe",
+      "population": 68170000,
+      "area": 551695,
+      "languages": { "fra": "French" },
+      "currencies": { "EUR": { "name": "Euro", "symbol": "€" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/320px-Flag_of_France.svg.png",
+        "alt": "Flag of France"
+      }
+    },
+    {
+      "name": { "common": "Germany", "official": "Federal Republic of Germany" },
+      "cca3": "DEU",
+      "capital": ["Berlin"],
+      "region": "Europe",
+      "subregion": "Western Europe",
+      "population": 84552242,
+      "area": 357114,
+      "languages": { "deu": "German" },
+      "currencies": { "EUR": { "name": "Euro", "symbol": "€" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/320px-Flag_of_Germany.svg.png",
+        "alt": "Flag of Germany"
+      }
+    },
+    {
+      "name": { "common": "Italy", "official": "Italian Republic" },
+      "cca3": "ITA",
+      "capital": ["Rome"],
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "population": 58940000,
+      "area": 301336,
+      "languages": { "ita": "Italian" },
+      "currencies": { "EUR": { "name": "Euro", "symbol": "€" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/320px-Flag_of_Italy.svg.png",
+        "alt": "Flag of Italy"
+      }
+    },
+    {
+      "name": { "common": "Spain", "official": "Kingdom of Spain" },
+      "cca3": "ESP",
+      "capital": ["Madrid"],
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "population": 48370000,
+      "area": 505992,
+      "languages": { "spa": "Spanish" },
+      "currencies": { "EUR": { "name": "Euro", "symbol": "€" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/en/9/9a/Flag_of_Spain.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/320px-Flag_of_Spain.svg.png",
+        "alt": "Flag of Spain"
+      }
+    },
+    {
+      "name": { "common": "Portugal", "official": "Portuguese Republic" },
+      "cca3": "PRT",
+      "capital": ["Lisbon"],
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "population": 10467366,
+      "area": 92090,
+      "languages": { "por": "Portuguese" },
+      "currencies": { "EUR": { "name": "Euro", "symbol": "€" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Portugal.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/320px-Flag_of_Portugal.svg.png",
+        "alt": "Flag of Portugal"
+      }
+    },
+    {
+      "name": { "common": "Netherlands", "official": "Kingdom of the Netherlands" },
+      "cca3": "NLD",
+      "capital": ["Amsterdam"],
+      "region": "Europe",
+      "subregion": "Western Europe",
+      "population": 17900000,
+      "area": 41850,
+      "languages": { "nld": "Dutch" },
+      "currencies": { "EUR": { "name": "Euro", "symbol": "€" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/320px-Flag_of_the_Netherlands.svg.png",
+        "alt": "Flag of the Netherlands"
+      }
+    },
+    {
+      "name": { "common": "Sweden", "official": "Kingdom of Sweden" },
+      "cca3": "SWE",
+      "capital": ["Stockholm"],
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "population": 10550000,
+      "area": 450295,
+      "languages": { "swe": "Swedish" },
+      "currencies": { "SEK": { "name": "Swedish krona", "symbol": "kr" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/en/4/4c/Flag_of_Sweden.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Flag_of_Sweden.svg/320px-Flag_of_Sweden.svg.png",
+        "alt": "Flag of Sweden"
+      }
+    },
+    {
+      "name": { "common": "Norway", "official": "Kingdom of Norway" },
+      "cca3": "NOR",
+      "capital": ["Oslo"],
+      "region": "Europe",
+      "subregion": "Northern Europe",
+      "population": 5500000,
+      "area": 323802,
+      "languages": { "nob": "Norwegian Bokmål", "nno": "Norwegian Nynorsk" },
+      "currencies": { "NOK": { "name": "Norwegian krone", "symbol": "kr" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Norway.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/320px-Flag_of_Norway.svg.png",
+        "alt": "Flag of Norway"
+      }
+    },
+    {
+      "name": { "common": "Greece", "official": "Hellenic Republic" },
+      "cca3": "GRC",
+      "capital": ["Athens"],
+      "region": "Europe",
+      "subregion": "Southern Europe",
+      "population": 10400000,
+      "area": 131990,
+      "languages": { "ell": "Greek" },
+      "currencies": { "EUR": { "name": "Euro", "symbol": "€" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Greece.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Greece.svg/320px-Flag_of_Greece.svg.png",
+        "alt": "Flag of Greece"
+      }
+    },
+    {
+      "name": { "common": "Australia", "official": "Commonwealth of Australia" },
+      "cca3": "AUS",
+      "capital": ["Canberra"],
+      "region": "Oceania",
+      "subregion": "Australia and New Zealand",
+      "population": 26638544,
+      "area": 7692024,
+      "languages": { "eng": "English" },
+      "currencies": { "AUD": { "name": "Australian dollar", "symbol": "$" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/en/b/b9/Flag_of_Australia.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Flag_of_Australia.svg/320px-Flag_of_Australia.svg.png",
+        "alt": "Flag of Australia"
+      }
+    },
+    {
+      "name": { "common": "New Zealand", "official": "New Zealand" },
+      "cca3": "NZL",
+      "capital": ["Wellington"],
+      "region": "Oceania",
+      "subregion": "Australia and New Zealand",
+      "population": 5228100,
+      "area": 268838,
+      "languages": { "eng": "English", "mri": "Māori", "nzs": "New Zealand Sign Language" },
+      "currencies": { "NZD": { "name": "New Zealand dollar", "symbol": "$" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Flag_of_New_Zealand.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_New_Zealand.svg/320px-Flag_of_New_Zealand.svg.png",
+        "alt": "Flag of New Zealand"
+      }
+    },
+    {
+      "name": { "common": "Fiji", "official": "Republic of Fiji" },
+      "cca3": "FJI",
+      "capital": ["Suva"],
+      "region": "Oceania",
+      "subregion": "Melanesia",
+      "population": 936375,
+      "area": 18272,
+      "languages": { "eng": "English", "fij": "Fijian", "hif": "Fiji Hindi" },
+      "currencies": { "FJD": { "name": "Fijian dollar", "symbol": "$" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Fiji.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Fiji.svg/320px-Flag_of_Fiji.svg.png",
+        "alt": "Flag of Fiji"
+      }
+    },
+    {
+      "name": { "common": "Papua New Guinea", "official": "Independent State of Papua New Guinea" },
+      "cca3": "PNG",
+      "capital": ["Port Moresby"],
+      "region": "Oceania",
+      "subregion": "Melanesia",
+      "population": 10329931,
+      "area": 462840,
+      "languages": { "eng": "English", "hmo": "Hiri Motu", "tpi": "Tok Pisin" },
+      "currencies": { "PGK": { "name": "Papua New Guinean kina", "symbol": "K" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Flag_of_Papua_New_Guinea.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Flag_of_Papua_New_Guinea.svg/320px-Flag_of_Papua_New_Guinea.svg.png",
+        "alt": "Flag of Papua New Guinea"
+      }
+    },
+    {
+      "name": { "common": "Samoa", "official": "Independent State of Samoa" },
+      "cca3": "WSM",
+      "capital": ["Apia"],
+      "region": "Oceania",
+      "subregion": "Polynesia",
+      "population": 225681,
+      "area": 2842,
+      "languages": { "smo": "Samoan", "eng": "English" },
+      "currencies": { "WST": { "name": "Samoan tālā", "symbol": "T" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/3/31/Flag_of_Samoa.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Samoa.svg/320px-Flag_of_Samoa.svg.png",
+        "alt": "Flag of Samoa"
+      }
+    },
+    {
+      "name": { "common": "Tonga", "official": "Kingdom of Tonga" },
+      "cca3": "TON",
+      "capital": ["Nuku'alofa"],
+      "region": "Oceania",
+      "subregion": "Polynesia",
+      "population": 107773,
+      "area": 747,
+      "languages": { "ton": "Tongan", "eng": "English" },
+      "currencies": { "TOP": { "name": "Tongan paʻanga", "symbol": "T$" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Flag_of_Tonga.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Tonga.svg/320px-Flag_of_Tonga.svg.png",
+        "alt": "Flag of Tonga"
+      }
+    },
+    {
+      "name": { "common": "Vanuatu", "official": "Republic of Vanuatu" },
+      "cca3": "VUT",
+      "capital": ["Port Vila"],
+      "region": "Oceania",
+      "subregion": "Melanesia",
+      "population": 334506,
+      "area": 12189,
+      "languages": { "bis": "Bislama", "eng": "English", "fra": "French" },
+      "currencies": { "VUV": { "name": "Vanuatu vatu", "symbol": "Vt" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Vanuatu.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Vanuatu.svg/320px-Flag_of_Vanuatu.svg.png",
+        "alt": "Flag of Vanuatu"
+      }
+    },
+    {
+      "name": { "common": "Solomon Islands", "official": "Solomon Islands" },
+      "cca3": "SLB",
+      "capital": ["Honiara"],
+      "region": "Oceania",
+      "subregion": "Melanesia",
+      "population": 740424,
+      "area": 28896,
+      "languages": { "eng": "English" },
+      "currencies": { "SBD": { "name": "Solomon Islands dollar", "symbol": "$" } },
+      "flags": {
+        "svg": "https://upload.wikimedia.org/wikipedia/commons/7/74/Flag_of_the_Solomon_Islands.svg",
+        "png": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Flag_of_the_Solomon_Islands.svg/320px-Flag_of_the_Solomon_Islands.svg.png",
+        "alt": "Flag of the Solomon Islands"
+      }
+    }
+  ]
+}
